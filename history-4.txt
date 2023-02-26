@@ -1,0 +1,5 @@
+   0 touch /tmp/test.txt
+   1 cat /etc/group >> /tmp/test.txt
+   2 vi /tmp/test.txt
+   3 cd
+   4 history > history.txt
