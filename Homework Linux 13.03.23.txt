@@ -1,0 +1,19 @@
+   0 nano myscript.sh
+   1 ls -l
+   2 chmod 744 myscript.sh 
+   3 ls -l
+   4 ./myscript.sh 
+   5 ls -l /tmp/test
+   6 cat /tmp/test/newfile
+   7 ls -l /tmp/test/newfile
+   8 cat /tmp/test/newfile/vlad.txt
+   9 history
+  10 history > history.txt
+
+
+#!/bin/bash
+mkdir -p /var/task
+ls -l >> /var/task/vlad.txt
+ps -ef |tail -n 5 >> /var/task/vlad.txt
+mkdir -p /tmp/test/newfile/ && mv /var/task/vlad.txt /tmp/test/newfile/
+echo "Done"
